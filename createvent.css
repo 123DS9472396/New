@@ -1,0 +1,111 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.body {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.event-heading {
+    margin-top: 10px;
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+.Event {
+    color: #FFA800;
+}
+
+.event-title,
+.description,
+.categories,
+.address,
+.contact-details,
+.timing,
+.calendar {
+    margin: 20px auto;
+    width: 50%;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+input[type="time"],
+input[type="date"] {
+    padding: 5px;
+}
+
+button {
+    border: none;
+    font-size: large;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 150px;
+    height: 48px;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+button span {
+    color: #FFA800;
+}
+
+button i {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+button:active {
+    font-weight: 700;
+    border-color: #FFA800;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.event-title h3,
+.description h3,
+.categories h3,
+.address h3,
+.contact-details h3,
+.timing h3,
+.calendar h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#heading,
+#desc {
+    height: 50px;
+}
+
+.description #desc {
+    width: 600px;
+    height: 100px;
+    font-size: medium;
+}
